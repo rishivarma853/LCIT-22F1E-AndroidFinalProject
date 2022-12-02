@@ -19,7 +19,7 @@ public class LoadingPageActivity extends AppCompatActivity {
         super.onResume();
         Handler handler = new Handler();
         handler.postDelayed(()-> {
-            startActivity(new Intent(LoadingPageActivity.this,));
+            startActivity(new Intent(LoadingPageActivity.this,HomePageActivity.class));
         },3000)
     }
 }
