@@ -20,6 +20,6 @@ public class LoadingPageActivity extends AppCompatActivity {
         Handler handler = new Handler();
         handler.postDelayed(()-> {
             startActivity(new Intent(LoadingPageActivity.this,HomePageActivity.class));
-        },3000)
+        },3000);
     }
 }
