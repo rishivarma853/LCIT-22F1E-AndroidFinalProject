@@ -13,17 +13,15 @@ public class LoadingPageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loadingpage);
-        getWindow().setEnterTransition(new Explode());
-        getWindow().setExitTransition(new Explode());
+
     }
 
     @Override
-    protected void onResume() {
-        super.onResume();
-        Handler handler = new Handler();
-        handler.postDelayed(()-> {
+    protected void onStart() {
+        super.onStart();
+        (new Handler()).postDelayed(()-> {
             startActivity(new Intent(LoadingPageActivity.this,HomePageActivity.class));
             finish();
-        },3000);
+        },1000);
     }
 }

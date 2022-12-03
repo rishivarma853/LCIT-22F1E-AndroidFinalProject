@@ -16,10 +16,6 @@
         app:layout_constraintBottom_toTopOf="@id/prgsbr_loading"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:adjustViewBounds="true"
-        android:maxHeight="90dp"
-        android:maxWidth="90dp"
-        android:scaleType="fitCenter"
         android:scaleX="2"
         android:scaleY="2"/>
 
