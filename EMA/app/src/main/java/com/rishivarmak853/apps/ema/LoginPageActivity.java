@@ -1,4 +1,4 @@
-package com.rishivarmak853.apps.ema.undercode;
+package com.rishivarmak853.apps.ema;
 
 import androidx.appcompat.app.AppCompatActivity;
 
