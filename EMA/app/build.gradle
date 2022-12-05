@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace 'com.rishivarmak853.apps.ema'
+    namespace 'com.rishivarma853.apps.ema'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.rishivarmak853.apps.ema"
-        minSdk 29
+        applicationId "com.rishivarma853.apps.ema"
+        minSdk 28
         targetSdk 32
         versionCode 1
         versionName "1.0"
